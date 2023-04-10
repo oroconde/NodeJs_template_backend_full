@@ -1,3 +1,2 @@
-import * as dotenv from 'dotenv'
-dotenv.config()
-export default { server_port: process.env.SERVER_PORT }
+import 'dotenv/config'
+export const PORT = process.env.SERVER_PORT || 3001

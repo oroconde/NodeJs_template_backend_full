@@ -1,8 +1,4 @@
-import express, {Request, Response, Router} from "express"
-const router: Router = express();
-
-router.get('/', (req: Request, res: Response)=>{
-    res.send("<h1>Hola Mundo</h1>");
-})
-
+import { Router } from "express"
+const router =Router();
+router.get('/', router)
 export default router

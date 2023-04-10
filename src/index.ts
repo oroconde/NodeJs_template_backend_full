@@ -1,6 +1,6 @@
 import app from './app';
-import server_port from './config'
+import PORT from './config'
 
-app.listen(server_port, ()=>{
-    console.log(`running on port ${server_port}`)
+app.listen(PORT, ()=>{
+    console.log(`running on port ${PORT}`)
 })

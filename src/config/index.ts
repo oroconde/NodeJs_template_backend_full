@@ -1,2 +1,2 @@
-import server_port from './env.config'
-export default server_port
+import { PORT } from './env.config'
+export default PORT

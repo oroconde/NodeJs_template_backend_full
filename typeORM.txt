@@ -1,0 +1,1 @@
+npx typeorm init --stocktaking  --stocktaking mysql
